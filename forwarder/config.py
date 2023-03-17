@@ -12,15 +12,15 @@ if not __name__.endswith("sample_config"):
 # Create a new config.py file in same dir and import, then extend this class.
 class Config(object):
     LOGGER = True
-    REMOVE_TAG = False
+    REMOVE_TAG = True
 
     # REQUIRED
-    API_KEY = "617722711:AAHysCHsVcQja6LOlHa88101lKjrxez80-M"  # API key obtained from BotFather
-    OWNER_ID = "582884567"  # If you dont know, run the bot and do /id in your private chat with the bot
+    API_KEY = "2102293244:AAGI5Wvk0R5KsPxzZbfHSv9HKNigRUNoD6M"  # API key obtained from BotFather
+    OWNER_ID = "1294886470"  # If you dont know, run the bot and do /id in your private chat with the bot
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
-    FROM_CHATS = [-1001234704297]  # List of chat id's to forward messages from
-    TO_CHATS = [-1001128355490]  # List of chat id's to forward messages to
+    FROM_CHATS = [-1001564328320]  # List of chat id's to forward messages from
+    TO_CHATS = [-1001592126703]  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
     WEBHOOK = False
